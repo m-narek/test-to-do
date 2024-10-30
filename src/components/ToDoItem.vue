@@ -4,11 +4,8 @@
     :class="editMode ? 'cursor-default' : 'cursor-move'"
     :draggable="!editMode"
     @dragover.prevent
-    @touchmove.prevent
     @dragstart="onDragStart"
     @drop="onDrop"
-    @touchstart="onDragStart"
-    @touchend="onDrop"
   >
     <form class="flex justify-between items-center" @submit.prevent="onEdit">
       <div class="flex items-center gap-2">

@@ -7,6 +7,9 @@ To get started with the project, run the following command to install all depend
 ```bash
 npm install
 ```
+## For API
+
+Create .env file in project root direction and copy .env.example content into .env
 
 ## Development
 
